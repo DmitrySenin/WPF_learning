@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:issue_2_TextBlock"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="100" Width="200">
     <Grid>
-        <TextBlock>This is a text inside TextBlock.</TextBlock>
+        <TextBlock Margin="10">This is a TextBlock control and it comes with a very long text.</TextBlock>
     </Grid>
 </Window>
