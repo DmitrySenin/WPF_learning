@@ -6,10 +6,13 @@
         xmlns:local="clr-namespace:issue_2_TextBlock"
         mc:Ignorable="d"
         Title="MainWindow" Height="200" Width="250">
-    <Grid>
+    <StackPanel>
         <TextBlock Margin="10" Foreground="Red">
             This is a TextBlock control <LineBreak />
             with multiple lines.
         </TextBlock>
-    </Grid>
+        <TextBlock Margin="10" TextTrimming="CharacterEllipsis" Foreground="Green">
+            This a TextBlock control with text that may not be rendered completly, which will be indicated with an ellipsis.
+        </TextBlock>
+    </StackPanel>
 </Window>
