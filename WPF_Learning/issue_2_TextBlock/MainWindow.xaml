@@ -14,5 +14,8 @@
         <TextBlock Margin="10" TextTrimming="CharacterEllipsis" Foreground="Green">
             This a TextBlock control with text that may not be rendered completly, which will be indicated with an ellipsis.
         </TextBlock>
+        <TextBlock Margin="10" TextWrapping="Wrap" Foreground="Blue">
+            This a TextBlock control with automatically wrapped text, with the TextWrapping property.
+        </TextBlock>
     </StackPanel>
 </Window>
